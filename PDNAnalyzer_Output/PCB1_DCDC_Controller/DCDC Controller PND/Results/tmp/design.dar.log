@@ -1,0 +1,74 @@
+
+Importing C:\Users\gmant\Desktop\PROJECTS\Celestial Projects\DCDC Buck Controller V2\DCDC Buck Controller V2\PDNAnalyzer_Output\PCB1_DCDC_Controller\DCDC Controller PND\odb.tgz... [Fri Aug 14 20:31:12 2020]
+============================================================
+Reading ODB++ database ...
+
+file not found: odb/misc/info.Z
+Reading file odb/matrix/matrix...
+Reading file odb/steps/pcb/profile...
+Reading file odb/steps/pcb/eda/data...
+Origin of ODB++ database:  Altium Designer file - Version 1.0.0.30000
+eda data: 14 packages, 16 nets.
+Reading file odb/steps/pcb/layers/top_solder/features...
+194 SWHs on layer TOP_SOLDER
+
+Reading file odb/steps/pcb/layers/top_layer/features...
+404 SWHs on layer TOP_LAYER
+
+Reading file odb/steps/pcb/layers/layer_1/features...
+147 SWHs on layer LAYER_1
+
+Reading file odb/steps/pcb/layers/layer_2/features...
+162 SWHs on layer LAYER_2
+
+Reading file odb/steps/pcb/layers/bottom_layer/features...
+215 SWHs on layer BOTTOM_LAYER
+
+Reading file odb/steps/pcb/layers/bottom_solder/features...
+108 SWHs on layer BOTTOM_SOLDER
+
+Added substrate layer SUBSTRATE-1 below etch layer TOP_LAYER
+Added substrate layer SUBSTRATE-2 below etch layer LAYER_1
+Added substrate layer SUBSTRATE-3 below etch layer LAYER_2
+Reading file odb/steps/pcb/layers/top_solder/attrlist...
+Reading file odb/steps/pcb/layers/top_layer/attrlist...
+Reading file odb/steps/pcb/layers/layer_1/attrlist...
+Reading file odb/steps/pcb/layers/layer_2/attrlist...
+Reading file odb/steps/pcb/layers/bottom_layer/attrlist...
+Reading file odb/steps/pcb/layers/bottom_solder/attrlist...
+WARNING: material values were set to default due to missing information for the following layers:  'TOP_SOLDER', 'TOP_LAYER', 'LAYER_1', 'LAYER_2', 'BOTTOM_LAYER', 'BOTTOM_SOLDER'
+parsing drills TOP_LAYER-BOTTOM_LAYER
+Reading file odb/steps/pcb/layers/drill/features...
+Reading file odb/steps/pcb/layers/comp_+_top/components...
+INFO: 32 duplicate vertices ignored
+========================================
+INFO: Created CSV file (C:\Users\gmant\Desktop\PROJECTS\Celestial Projects\DCDC Buck Controller V2\DCDC Buck Controller V2\PDNAnalyzer_Output\PCB1_DCDC_Controller\DCDC Controller PND\Results\tmp\design.csv) with component properties extracted from ODB++ file.
+========================================
+========================================
+Lumped-element import (C:\Users\gmant\Desktop\PROJECTS\Celestial Projects\DCDC Buck Controller V2\DCDC Buck Controller V2\PDNAnalyzer_Output\PCB1_DCDC_Controller\DCDC Controller PND\Results\tmp\design.csv)...
+Detected ' ; ' as separator.
+
+Value-string translations:
+	0.1µF ->  99.99999999999999 nF (C)
+	1 kOhms ->  1.0 kOhms (R)
+	1.91 kOhms ->  1.91 kOhms (R)
+	10 kOhms ->  10.0 kOhms (R)
+	100 kOhms ->  100.0 kOhms (R)
+	1000pF ->  1.0 nF (C)
+	10pF ->  10.0 pF (C)
+	174 kOhms ->  174.0 kOhms (R)
+	1µF ->  1.0 uF (C)
+	2.2µF ->  2.2 uF (C)
+	470µF ->  470.0 uF (C)
+	47µF ->  47.0 uF (C)
+	49.9 kOhms ->  49.9 kOhms (R)
+	6.8µH ->  6.8 uH (L)
+	68µF ->  68.0 uF (C)
+	95.3 Ohms ->  95.3 Ohms (R)
+WARNING: column header(s) 'refdes', 'type' found multiple times (taking the first one)
+========================================
+WARNING: There were some warnings while importing the auto-generated CSV-file 'C:\Users\gmant\Desktop\PROJECTS\Celestial Projects\DCDC Buck Controller V2\DCDC Buck Controller V2\PDNAnalyzer_Output\PCB1_DCDC_Controller\DCDC Controller PND\Results\tmp\design.csv'. Please review the auto-generated file under Parts Editor->Load (csv).
+========================================
+Unifying library padstacks...
+Finished reading database.
+============================================================
